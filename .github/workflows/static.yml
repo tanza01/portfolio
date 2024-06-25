@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio di Progetti</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .project {
+            background-color: #1f1f1f;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+        }
+        .contact-info {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Il Mio Portfolio</h1>
+        <nav>
+            <a href="#chi-sono">Chi sono</a>
+            <a href="#progetti">Progetti</a>
+            <a href="#contatti">Contatti</a>
+        </nav>
+    </header>
+
+    <section id="chi-sono">
+        <h2 class="section-title">Chi sono</h2>
+        <p>Ciao! Sono Lorenzo Tanzarella, uno sviluppatore appassionato di creare soluzioni innovative e progetti creativi. Ho esperienza in [descrizione delle tue competenze e esperienze].</p>
+    </section>
+
+    <section id="progetti">
+        <h2 class="section-title">Progetti</h2>
+        <div class="project">
+            <h3>Progetto 1</h3>
+            <p>Progetto: Salesforce x ENEL - Gestione Servizi, Fatturazione e Assistenza Clienti ENEL
+Attività svolte:
+Tramite il CRM Salesforce è stato fornito supporto con analisi di dati, utilizzo di script Apex in modalità bulk, query e risoluzione di problematiche riguardanti flussi colleganti campi e oggetti di Salesforce con relative relazioni parent-to-child e viceversa, in modo da permettere ai servizi creati di funzionare correttamente. È stata inoltre affrontata la risoluzione di errori che impedivano la creazione automatica di oggetti e sObject, creando questi ultimi tramite script Apex.
+Tecnologie utilizzate: CRM e Org di Salesforce con linguaggio di programmazione Apex, SOQL. Utilizzo della piattaforma Workbench e del tool Salesforce Inspector.</p>
+        </div>
+        <div class="project">
+            <h3>Progetto 2</h3>
+            <p>Progetto: Liferay - Migrazione di un portale Liferay dalla versione 6.2 alla versione 7.4
+Attività svolte:
+Il progetto si è concentrato sulla migrazione di un portale Liferay dalla versione 6.2 alla versione 7.4. Questo processo ha coinvolto l'adeguamento del sistema preesistente per garantire la compatibilità con i nuovi standard introdotti dalla versione più recente di Liferay. La migrazione ha comportato l'aggiornamento sia del database che delle portlet, assicurando che tutte le funzionalità e i dati esistenti fossero preservati e perfettamente funzionanti sulla nuova piattaforma.
+Tecnologie utilizzate: Liferay Developer Studio, Java, Servlet, JSP, XML, SourceTree.</p>
+        </div>
+        <div class="project">
+            <h3>Progetto 3</h3>
+            <p> SIT Gestione Trapianti per Ministero della Salute x Almaviva
+Attività svolte:
+In questo progetto, il compito era sviluppare la parte backend del flusso logico tramite microservizi CRUD utilizzando Spring Boot. È stata inoltre implementata la funzionalità di stampa tramite IText e un batch per l'invio di email. Dal vecchio sistema in uso presso il Ministero della Salute sono state recuperate e rinnovate le query SQL, che poi sono state riutilizzate e integrate nel nuovo codice.
+Tecnologie utilizzate: Spring Boot, SQL, WebMethods, DB Oracle.</p>
+        </div>
+        <!-- Aggiungi altri progetti qui -->
+    </section>
+
+    <section id="contatti">
+        <h2 class="section-title">Contatti</h2>
+        <ul class="contact-info">
+            <li>Email: <a href="mailto:tuoindirizzo@email.com" style="color: #4caf50;">tanzarellalorenzo24@gmail.com</a></li>
+            <li>Telefono: <a href="tel:+391234567890" style="color: #4caf50;">+39 3291906199</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/tuoprofilo" target="_blank" style="color: #4caf50;">https://www.linkedin.com/in/lorenzo-tanzarella-9b5534269/</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portfolio Lorenzo. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>	
