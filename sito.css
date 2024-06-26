@@ -3,11 +3,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #121212;
     color: #ffffff;
+
 }
 header {
+    position: fixed;
     background-color: #1f1f1f;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
+    width: 100%;
 }
 header h1 {
     margin: 0;
@@ -26,12 +29,12 @@ nav a:hover {
     text-decoration: underline;
 }
 section {
-    padding: 40px 20px;
+    padding: 100px 50px;
     max-width: 800px;
     margin: 0 auto;
 }
 .section-title {
-    text-align: center;
+    text-align: bottom;
     margin-bottom: 40px;
 }
 .project {
@@ -42,6 +45,20 @@ section {
 }
 .project h3 {
     margin-top: 0;
+}
+#esperienza-lavorativa {
+    background-color: #1f1f1f;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    max-width: 800px; 
+    display: block;
+}
+.job {
+    margin-bottom: 20px;
+}
+.job h3, .job h4 {
+    color: #4caf50;
 }
 footer {
     text-align: center;
