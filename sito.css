@@ -29,9 +29,12 @@ nav a:hover {
     text-decoration: underline;
 }
 section {
-    padding: 100px 50px;
+    padding: 100px 50px 100px 50px;
     max-width: 800px;
     margin: 0 auto;
+}
+section h2 {
+    margin-top: 20px;
 }
 .section-title {
     text-align: bottom;
